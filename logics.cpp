@@ -5,8 +5,8 @@ using namespace std ;
 int main(){
     int x = 20 ;
     int p = x++ ;
-    cout <<p  ;
-    cout <<x ;
+    cout <<p<<endl  ;
+    cout <<x<<endl ;
 
 return 0 ;
 }
