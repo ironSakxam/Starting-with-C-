@@ -1,42 +1,64 @@
 # C++ OOP Practice Projects
 
-This folder contains a set of C++ practice programs focused on object-oriented programming concepts and general C++ fundamentals. The examples are intended for learning, experimenting, and building familiarization with Visual Studio Code and GCC tooling.
+This folder contains a collection of C++ practice programs and exercises. The examples are focused on C++ fundamentals, object-oriented programming concepts, control flow, and simple algorithms. The repository is designed for learning, experimenting, and building familiarity with Visual Studio Code and GCC tooling.
+
+## OOP concepts covered
+
+The examples include practice for core object-oriented programming ideas such as:
+
+- Classes and objects
+- Encapsulation and data hiding
+- Constructors and destructors
+- Inheritance and derived types
+- Polymorphism via functions and class structure
+- Abstraction and reusable code design
+
+These concepts are useful for building C++ programs that use structured, modular, and maintainable code.
 
 ## What is included
 
-- `hello.cpp` - basic C++ program to print output
-- `sum.cpp` - example for adding numbers
-- `multiply.cpp` - example for multiplication logic
-- `equation.cpp` - simple program for solving equations or math expressions
-- `logics.cpp` - logic and control flow practice
-- `cf.cpp` - conditional/flow control practice
-- `practise.cpp` through `practise9.cpp` - additional practice exercises and examples
+- `hello.cpp` — basic console output example
+- `sum.cpp` — adding numbers example
+- `multiply.cpp` — multiplication logic example
+- `equation.cpp` — simple math/equation handling
+- `logics.cpp` — control flow and logic practice
+- `cf.cpp` — conditional statements practice
+- `students.cpp` — student-related data or object practice
+- `practise*.cpp` — numbered practice exercises (`practise.cpp` through `practise14.cpp`)
+- `CV_CR.cpp` — additional practice program in the workspace
 
-> Note: Compiled binaries (`*.exe`) are present in this folder for local testing, but only source files should be committed to GitHub. It is recommended to add a `.gitignore` entry for executables.
+Compiled binaries (`*.exe`) are present locally for testing, but the source files are the intended repository content.
 
 ## How to compile and run
 
-From a terminal in this folder, you can compile and run any source file using `g++`:
+From a terminal inside this folder, compile any `.cpp` source file using `g++`:
 
 ```bash
-g++ -g hello.cpp -o hello.exe
+g++ -std=c++17 -g hello.cpp -o hello.exe
 ./hello.exe
 ```
 
-For a different file, replace `hello.cpp` with the target filename.
+Replace `hello.cpp` with the source file you want to build.
 
-## Recommended VS Code workflow
+If you need to compile a file with a different name:
 
-If you are using Visual Studio Code, this folder already contains a `.vscode/tasks.json` configuration with the following tasks:
+```bash
+g++ -std=c++17 -g practise14.cpp -o practise14.exe
+./practise14.exe
+```
 
-- `Build C++ active file` — compiles the currently active C++ source file
-- `Run C++ active executable` — builds and runs the current file's executable
+## VS Code workflow
 
-Use the `Run Task...` command or assign keyboard shortcuts to these tasks for faster development.
+This folder contains a `.vscode/tasks.json` configuration, including:
 
-## Suggested improvements
+- `Build C++ active file` — compile the currently active C++ source file
+- `Run C++ active executable` — build and run the executable for the active source file
 
-- Add a `.gitignore` file to exclude compiled executables and build artifacts:
+Use `Run Task...` in VS Code to execute these tasks quickly.
+
+## Recommended cleanup
+
+Add a `.gitignore` file to keep build artifacts out of version control. Example contents:
 
 ```gitignore
 *.exe
@@ -45,8 +67,9 @@ build/
 .vscode/
 ```
 
-- Keep only `.cpp` source files in the repository for a clean commit history.
+Only commit `.cpp` source files and configuration files needed for development.
 
-## License
+## Notes
 
-This repository is for personal practice and learning. Feel free to reuse and modify the examples for your own studies.
+- This repository is for learning and practice.
+- Feel free to reuse and modify the examples as you continue building your C++ skills.
