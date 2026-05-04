@@ -61,21 +61,21 @@
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on",
-    "other": "on"
+    "other": false
   },
-  "editor.suggestOnTriggerCharacters": true,
-  "editor.inlineSuggest.enabled": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
   "github.copilot.enable": true,
-  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.inlineSuggest.enable": false,
   "[cpp]": {
     "editor.codeLens": true,
     "editor.quickSuggestions": {
       "other": false,
-      "comments": false,
-      "strings": false
+      "comments": "on",
+      "strings": "on"
     },
     "editor.suggestOnTriggerCharacters": false,
     "editor.inlineSuggest.enabled": false,
-    "editor.suggest.showSnippets": false
+    "editor.suggest.showSnippets": true
   }
 }
