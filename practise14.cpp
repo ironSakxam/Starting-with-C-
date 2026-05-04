@@ -7,17 +7,17 @@ using namespace std ;
 class Student {
     public :
     string name ;
-    int marks ;
+    int rollno ;
 };
 
 Student createStudent(){
     Student s ;
     s.name ="Kaaley Lutey" ;
-    s.marks = 69 ;
+    s.rollno = 69 ;
     return s ;
 }
 int main(){
 Student s2 = createStudent() ;
 cout << s2.name << endl ;
-cout << s2.marks <<endl ;
+cout << s2.rollno <<endl ;
 }

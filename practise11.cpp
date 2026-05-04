@@ -8,12 +8,10 @@ class Rectangle {
     public:
 
     void get_value(int , int );
-  
-    void area(){
+   void area(){
         cout <<"Area is " <<l*b << endl ; 
     }
 } ;
-
 void Rectangle::get_value(int x , int y ){
         l = x;
         b = y;
