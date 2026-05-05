@@ -3,18 +3,16 @@
 #include <iostream>
 using namespace std;
 
-class Complex {
-public:
-    int real, imag ;
+class Complex{
+public :
+    float real, imag ;
 };
-
-Complex add(Complex a, Complex b) {
+Complex add(Complex a, Complex b){
     Complex sum ;
     sum.real = a.real + b.real;
     sum.imag = a.imag + b.imag;
     return sum;
 }
-
 int main() {
     Complex c1, c2, sum;
 
