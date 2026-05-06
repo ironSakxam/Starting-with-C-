@@ -10,10 +10,15 @@ The examples include practice for core object-oriented programming ideas such as
 - Encapsulation and data hiding
 - Constructors and destructors
 - Inheritance and derived types
+- Friend classes for controlled access across classes
 - Polymorphism via functions and class structure
 - Abstraction and reusable code design
 
 These concepts are useful for building C++ programs that use structured, modular, and maintainable code.
+
+## Friend class implementation
+
+A friend class in C++ lets one class access another class's private or protected members when explicitly declared as a friend. This pattern is useful for closely related classes that need controlled access beyond public interfaces, such as helper or wrapper classes.
 
 ## What is included
 
