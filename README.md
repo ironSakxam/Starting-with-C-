@@ -61,6 +61,11 @@ This folder contains a `.vscode/tasks.json` configuration, including:
 
 Use `Run Task...` in VS Code to execute these tasks quickly.
 
+## Graphics Implementation
+  
+  I will be soon implementating some graphics function of C++ in the repository . 
+  Raylib will be added very soon
+
 ## Recommended cleanup
 
 Add a `.gitignore` file to keep build artifacts out of version control. Example contents:
