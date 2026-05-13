@@ -66,18 +66,6 @@ Use `Run Task...` in VS Code to execute these tasks quickly.
   I will be soon implementating some graphics function of C++ in the repository . 
   Raylib will be added very soon
 
-## Recommended cleanup
-
-Add a `.gitignore` file to keep build artifacts out of version control. Example contents:
-
-```gitignore
-*.exe
-*.o
-build/
-.vscode/
-```
-
-Only commit `.cpp` source files and configuration files needed for development.
 
 ## Notes
 
