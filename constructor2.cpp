@@ -9,6 +9,7 @@ private:
 
 public:
     Complex() : real(0), imag(0) {}
+   
     Complex(int r, int i) : real(r), imag(i) {}
 
     Complex add(const Complex &c1, const Complex &c2) {
