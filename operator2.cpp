@@ -5,7 +5,7 @@ class Counter {
     int count ;
     public :
     Counter() {
-        count = 0 ;
+        count = 0 ;                                // why friend func is used for insertion and excertion overloading ????//
     }
 int getcount() {
     return count ;
