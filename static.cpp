@@ -4,16 +4,16 @@ class Sample {
     int code ;
     static int count ; 
                        public :
-                       void set_code(){
-                         code = ++count  ;
-                    }
-                        void show_code() {
-                          cout << "object number" <<code << endl ;
-                    } 
-                      static void display_count() {
-                        cout << "count :" <<count << endl ;
-                    }
-};
+   void set_code(){
+   code = ++count  ;
+    }
+    void show_code() {
+      cout << "object number" <<code << endl ;
+   } 
+   static void display_count() {
+    cout << "count :" <<count << endl ;
+    }
+      };
 
     int Sample::count ;   
 
